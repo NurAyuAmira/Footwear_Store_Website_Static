@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CLARKS</title>
+    <link rel="stylesheet" href="./account.css">
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clarks.css">
+    <link rel="stylesheet" href="css_man.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    
+    <style>
+        .logo img
+        {
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+<!---------------------------------------Header---------------------------------------->
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo" style="display: flex;">
+                    <img src="image/clarks.png" width="500px">
+                </div>
+            </div>
+        </div>
+      </div> 
+    
+<!---------------------------------------content 1-------------------------------->
+
+<div class="wrapper">    
+      
+  <div class="title-text">
+        <div class="title login" style="font-family: 'Raleway', sans-serif;">Login Form</div>
+        <div class="title reg" style="font-family: 'Raleway', sans-serif;">Registration Form</div>
+      </div>
+      
+      <div class="form-container">
+        
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="reg">
+          <label for="login" class="slide login" style="font-family: 'Raleway', sans-serif; font-weight: bold;">Login</label>
+          <label for="reg" class="slide reg" style="font-family: 'Raleway', sans-serif; font-weight: bold;">Registration</label>
+          <div class="slider-tab"></div>
+        </div>
+        
+        <div class="form-inner">
+         
+          <form action="#" class="login">
+            <div class="field">
+              <input type="text" id="email" placeholder="Email Address" required>
+            </div>
+            
+            <div class="field">
+              <input type="password" id="pass" placeholder="Password" required>
+            </div>
+            
+            <div class="pass-link">
+              <a href="#" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: bold;" >Forgot password?</a>
+            </div>
+            
+            <div class="field btn">
+              <div class="btn-layer"></div>
+                    <a href="index.html" onclick="alert(' Welcome to Clarks!');" style="font-family: 'Raleway', sans-serif; font-weight: bold;">Login</a>
+            </div>
+           
+            <div class="reg-link" style="font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: bold;" >
+              Don't have an account? <a href="account.html" >Register now</a>
+            </div>
+          </form>
+
+          <form action="#" class="reg">
+            <div class="field">
+              <input type="text" id="email" placeholder="Email Address" required>
+            </div>
+            
+            <div class="field">
+              <input type="password" id="pass" placeholder="Password" required>
+            </div>
+            
+            <div class="field">
+              <input type="password" id="confirmpass" placeholder="Confirm password" required>
+            </div>
+            
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <a href="index.html"  onclick="alert(' Welcome to Clarks!');" style="font-family: 'Raleway', sans-serif; font-weight: bold;">Register</a>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+      
+  </div>
+    
+<!------------------------------footer---------------------------------->
+    
+    
+  
+  <script  src="./scriptacc.js"></script>
+
+</body>
+</html>

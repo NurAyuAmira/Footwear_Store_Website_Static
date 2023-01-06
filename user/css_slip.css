@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.horizontol
+{
+    margin-top:10px;
+}
+
+.tab2
+{
+    margin-right: 500px;
+    
+}
+
+/*display slip*/
+.border_1
+{
+    max-width: 2000px;
+    margin: auto;
+    padding-left: 400px;
+}
+
+.col-slip
+{
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.col-slip img
+{
+    width:75%;
+}

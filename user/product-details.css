@@ -1,0 +1,199 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.detail1
+{
+    display: flex;
+    align-items: center;
+    column-gap: 90px;
+}
+
+.box-1 img
+{
+    max-width: 100%;
+    padding-bottom: 20px
+}
+
+.box-1
+{
+    line-height: 40px;
+}
+
+.button_1
+{
+    background: lightgrey;
+    color: black;
+    transition: background 1s;
+    border-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button_1:hover
+{
+    color: lightgrey;
+    background: black;
+}
+
+.detail-box-1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-box-2
+{
+    cursor: pointer;
+}
+
+.test
+{
+    border: 5px solid #deddd9;
+    margin-bottom: 20px;
+}
+
+.product4
+{
+    background-color: #DCDCDC;
+    padding-top: 5px;
+}
+
+.product2
+{
+    display: flex;
+    justify-content: center;
+    background-color: #DCDCDC;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.detail2
+{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+
+.box-2 img
+{
+    margin-top: 20px;
+}
+
+.product3
+{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tab_trigger ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.tab_trigger ul li label
+{
+    position: relative;
+    display: block;
+    padding: 8px 15px;
+    cursor: pointer;
+    min-width: 266px;
+    background: #e6e6e6;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px 8px 0 0;
+    font-size: 25px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.tab_trigger ul li:nth-child(1) label
+{
+    background: #f0f0f0;
+}
+
+.tab_trigger ul li:nth-child(2) label
+{
+    background: #e6e6e6;
+}
+
+.tab_trigger ul li:nth-child(3) label
+{
+    background: #d9d9d9;
+}
+
+.tab_container_wrap input
+{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 0;
+    z-index: -100;
+    top: -10000px;
+}
+
+.tab_container_wrap input:checked + .tab_content_box
+{
+    display: block;
+}
+
+.tab_content_box
+{
+    background: #f0f0f0;
+    padding: 20px;
+    display: none;
+}
+
+.tab_content_box img
+{
+    padding-bottom: 20px;
+}
+
+.tab_content_box:nth-of-type(1)
+{
+    background: #f0f0f0;
+}
+
+.tab_content_box:nth-of-type(2)
+{
+    background: #e6e6e6;
+}
+
+.tab_content_box:nth-of-type(3)
+{
+    background: #d9d9d9;
+}
+
+.tab_content_box h2
+{
+    margin: 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

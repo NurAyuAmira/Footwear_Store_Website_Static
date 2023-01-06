@@ -1,0 +1,50 @@
+.polo
+{
+    color: ;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 50px;
+    height: 230px;
+    margin-bottom: 250px;
+}
+
+.pulu
+{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 50px;
+
+}
+
+.poloin
+{
+    display: flex; 
+    justify-content: center;
+    
+}
+
+
+ul
+{
+    list-style-type: none;
+}
+
+.pala
+{
+    margin-top: 20px;
+    line-height: 3;
+    text-align: center;
+    
+}
+
+.fas, .far
+{
+    font-size: 100px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}

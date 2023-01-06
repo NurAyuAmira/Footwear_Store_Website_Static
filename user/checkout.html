@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clarks.css">
+    <link rel="stylesheet" href="css_man.css">
+    <link rel="stylesheet" href="cartstyle.css">
+    <link rel="stylesheet" href="checkout-style.css">
+    <title>Clarks Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/release/v5.5.0/css/all.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    
+</head>
+<body>
+<!---------------------------------------Header---------------------------------------->
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo" style="display: flex;">
+                    <a href="index.html"><img src="image/clarks.png" width="200px"></a>
+                <nav>
+                    <ul id="menuitems" style="padding-top: 45px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="main_man.html">Mens</a></li>
+                    <li><a href="womenpage.html">Womens</a></li>
+                    <li><a href="acc.html">Account</a></li>
+                    </ul>
+                </nav>
+                </div>
+                <div class="icon">
+                    <a href="cartpage.html"><img src="image/cartlogo.png" width="30px" height="40px"></a>
+                </div>
+            </div>
+        </div>
+      </div> 
+
+<!---------------------------------------content 1-------------------------------->
+    
+    <div class="content1" style="color: white; background: #98cfd5; width: 100%">
+        <div class="row1">
+            <p>FREE FOR ALL DELIVERY</p>
+        </div>
+    </div>
+    
+
+<!--------------------------------checkout details------------------------------------->
+    
+    <div class="checkout">
+        <div class="checkout-payment">
+            <h2>Payment Gateway</h2>
+            <div class="form">
+                <div class="card space icon-relative">
+                    <label class="label">Card holder:</label>
+                    <input type="text" class="input" name="card_holder" placeholder="Coding Market">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="card space icon-relative">
+                    <label class="label">Card number:</label>
+                    <input type="text" class="input" name="card_number" placeholder="Card Number" data-mask="0000 0000 0000 0000">
+                    <i class="far fa-credit-card"></i>
+                </div>
+                <div class="card-grp space">
+                    <div class="card-item icon-relative">
+                        <label class="label">Expiry date:</label>
+                        <input type="text" class="input" name="expiry_date" placeholder="00 / 00" data-mask="00 / 00">
+                        <i class="far fa-calendar-alt"></i>
+                    </div>
+                    <div class="card-item icon-relative">
+                        <label class="label">CVC:</label>
+                        <input type="text" class="input" name="cvc" placeholder="000" data-mask="000">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+                <div class="click">
+                    <p onclick="alert('Payment Successful!');">Pay</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    
+<!------------------------------footer---------------------------------->
+    
+    <div class="footer">
+            <div class="row8">
+                <div classs="footer-col-1">
+                    <h3 style="font-family: 'Roboto', sans-serif;">Account</h3>
+                        <ul class="col-1">
+                            <li><a href="account.html" style="font-family: 'Raleway', sans-serif;">Login</a></li>
+                            <li><a href="account.html" style="font-family: 'Raleway', sans-serif;">Register</a></li>
+                            <li><a href="acc.html" style="font-family: 'Raleway', sans-serif;">My Account</a></li>
+                        </ul>
+                </div>
+           </div>
+           <div class="row8">
+                <div classs="footer-col-1">
+                    <h3 style="font-family: 'Roboto', sans-serif;">Customer Service</h3>
+                        <ul class="col-1">
+                            <li><a href="sizechart.html" style="font-family: 'Raleway', sans-serif;">Shoes Size Chart</a></li>
+                        </ul>
+                </div>
+           </div>
+           <div class="row8">
+                <div classs="footer-col-1">
+                    <h3 style="font-family: 'Roboto', sans-serif;">About Clarks</h3>
+                        <ul class="col-1">
+                            <li><a href="contact-us.html" style="font-family: 'Raleway', sans-serif;">Contact Us</a></li>
+                            <li><a href="about-us.html" style="font-family: 'Raleway', sans-serif;">About Us</a></li>
+                        </ul>
+                </div>
+           </div>    
+    </div>
+</body>
+</html>
